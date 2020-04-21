@@ -6,6 +6,8 @@ BRANDS = []
     
     @brand = brand
     if BRANDS.include?(brand)
+     brand
+   else
      BRANDS << brand 
     end
   end
