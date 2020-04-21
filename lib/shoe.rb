@@ -13,6 +13,7 @@ end
     puts "Your shoe is as good as new!"
   end
 end
+end
 =begin
 def initialize(brand)
     @brand = brand
