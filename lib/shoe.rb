@@ -10,7 +10,7 @@ BRANDS = []
    else
      BRANDS << brand 
     end
-  end
+  
 end
 
   def cobble
@@ -18,8 +18,9 @@ end
     puts "Your shoe is as good as new!"
   end
 end
-
+=begin
 def initialize(brand)
     @brand = brand
     BRANDS << brand unless BRANDS.include?(brand)
   end
+  =end
